@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/* on de.scalable.capital
+host: https://de.scalable.capital
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Scalable Capital is a consumer neobroker and digital wealth manager with no
+  public developer API. No /.well-known discovery documents were served; all
+  probed paths returned 404.

@@ -1,8 +1,17 @@
 aid: scalable-capital
 name: Scalable Capital
-description: Scalable Capital is a company surfaced as a portfolio company of balderton-capital, hv-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Scalable Capital is a Munich-based digital investment platform and licensed
+  bank operating across Germany, Austria, Italy, France, Spain and the
+  Netherlands. It offers a self-directed neobroker for trading stocks, ETFs,
+  bonds, funds, crypto and derivatives, automated Wealth (robo-advisory)
+  portfolio management, ETF and stock savings plans, an interest-bearing
+  overnight cash account, and credit services. Backed by Balderton Capital and
+  HV Capital, Scalable Capital serves retail investors through consumer web and
+  mobile applications; it does not currently publish a public developer API,
+  developer portal, or OpenAPI specification. This profile was added to the API
+  Evangelist network as a portfolio-lead stub and enriched via public-surface
+  probes.
 url: https://raw.githubusercontent.com/api-evangelist/scalable-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +20,31 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://de.scalable.capital/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Neobroker
+- Wealth Management
+- Investing
+- Banking
+- ETF
+- Robo-Advisory
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,16 @@ maintainers:
 common:
 - type: Website
   url: https://de.scalable.capital/en
+- type: Support
+  url: https://help.scalable.capital/en
+- type: PrivacyPolicy
+  url: https://de.scalable.capital/en/privacy
+- type: DomainSecurity
+  url: security/scalable-capital-domain-security.yml
+- type: WellKnown
+  url: well-known/scalable-capital-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
