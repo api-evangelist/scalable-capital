@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/scalable-capital/integrations
+- https://n8n.io/integrations/scalable-capital/
+- https://composio.dev/toolkits/scalable-capital
+- https://monid.ai/tools/scalable-capital
+checked:
+- https://composio.dev/toolkits/scalable-capital
+- https://monid.ai/tools/scalable-capital
+- https://n8n.io/integrations/scalable-capital/
+- https://zapier.com/apps/scalable-capital/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
