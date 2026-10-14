@@ -24,6 +24,6 @@
     - h. providing advice on crypto-assets
     matched_domain: scalable.capital
     detected_by: sweep-crypto.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null

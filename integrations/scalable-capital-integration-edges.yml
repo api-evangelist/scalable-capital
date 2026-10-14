@@ -34,7 +34,7 @@ edges:
     - h. providing advice on crypto-assets
     matched_domain: scalable.capital
     detected_by: sweep-crypto.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   detected_by: sweep-crypto.py
-  first_seen: '2026-10-13'
+  first_seen: '2026-10-14'
 templates: []
