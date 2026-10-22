@@ -12,6 +12,9 @@ checked:
 - https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv
 - https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
 - https://zapier.com/apps/scalable-capital/integrations
+- https://portal.mvp.bafin.de/database/InstInfo/
+- https://www.dnb.nl/en/public-register/
+- https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/
 summary: null
 marketplace_apps: []
 edges:
@@ -67,7 +70,45 @@ edges:
       legal_name: SCALABLE CAPITAL GMBH
       country: DE
     detected_by: sweep-capital-markets.py
-    detected: '2026-10-15'
+    detected: '2026-10-19'
   detected_by: sweep-capital-markets.py
-  first_seen: '2026-10-15'
+  first_seen: '2026-10-19'
+- partner_name: BaFin company database (supervised institutions, Germany)
+  partner: null
+  partner_match: register-name
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://portal.mvp.bafin.de/database/InstInfo/
+  category: German financial supervisory licence (BaFin)
+  contract_reference:
+    register: BaFin company database (supervised institutions, Germany)
+    spec_file: null
+    standard: null
+    role: licensed-participant
+    registrations:
+    - registered_name: Scalable Capital Bank GmbH
+      licences:
+      - CRR-Kreditinstitut
+      - Kreditinstitut
+      - Kryptowertedienstleister
+      - SSM-Institut
+      register_country: DE
+      matched_domain: null
+      matched_by: register-name
+      register_id: BaFin-ID 10141823
+      lei: 391200Y3EUNL4LTXRP94
+      register_name_note: register-name 'scalablecapital' = scalable-capital; wikidata P856 scalable.capital agrees
+        or unheld
+    signal_note: 'participation only: a supervisory licence / authorisation; no API conformance is published by
+      this register'
+    detected_by: sweep-dach-financial-registers.py
+    detected: '2026-10-21'
+    matched_by: register-name
+    identity_source: register-name
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  detected_by: sweep-dach-financial-registers.py
+  first_seen: '2026-10-21'
 templates: []
